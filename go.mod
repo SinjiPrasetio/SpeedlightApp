@@ -3,7 +3,7 @@ module myapp
 go 1.18
 
 require (
-	github.com/SinjiPrasetio/speedlight v0.0.0-00010101000000-000000000000
+	github.com/SinjiPrasetio/speedlight v0.0.0-20220726094431-f54e6871aa16
 	github.com/justinas/nosurf v1.1.1
 	github.com/ory/dockertest/v3 v3.9.1
 	github.com/upper/db/v4 v4.5.3
