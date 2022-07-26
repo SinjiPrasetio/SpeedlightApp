@@ -8,7 +8,6 @@ import (
 
 func (a *application) routes() *chi.Mux {
 	// Middleware must placed before routes
-	a.middleware(a.Middleware.CheckRemember)
 
 	// Add routes here!
 	a.get("/", a.Handlers.Home)
