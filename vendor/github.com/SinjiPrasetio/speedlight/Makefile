@@ -14,3 +14,8 @@ coverage:
 build_cli:
 	@go mod vendor
 	@go build -o ../app/speedlight ./cmd/cli
+
+## build: builds the command line tool to dist directory
+build:
+	@go mod vendor
+	@go build -o ./dist/speedlight ./cmd/cli
