@@ -1,4 +1,4 @@
-BINARYNAME=Speedlight.exe
+BINARYNAME=speedlight
 
 build:
 	@echo "Updating Speedlight..."
